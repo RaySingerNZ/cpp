@@ -33,7 +33,7 @@ namespace DelegatesAndEventsDemo
 
                     if (ValueDelegate != null)
                     {
-                        ValueChangedEventArgs args = new ValueChangedEventArgs();
+                        CustomEventArgs args = new CustomEventArgs();
                         args.OldValue = oldValue;
                         args.NewValue = firstName;
                         ValueDelegate(this, args);
@@ -54,7 +54,7 @@ namespace DelegatesAndEventsDemo
 
                     if (ValueDelegate != null)
                     {
-                        ValueChangedEventArgs args = new ValueChangedEventArgs();
+                        CustomEventArgs args = new CustomEventArgs();
                         args.OldValue = oldValue;
                         args.NewValue = lastName;
                         ValueDelegate(this, args);
@@ -75,7 +75,7 @@ namespace DelegatesAndEventsDemo
 
                     if (ValueDelegate != null)
                     {
-                        ValueChangedEventArgs args = new ValueChangedEventArgs();
+                        CustomEventArgs args = new CustomEventArgs();
                         args.OldValue = oldValue;
                         args.NewValue = age;
                         ValueDelegate(this, args);

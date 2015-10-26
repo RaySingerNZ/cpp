@@ -32,7 +32,7 @@ namespace DelegatesAndEventsDemo
             Console.Read();
         }
 
-        private static void p_ValueDelegate(object sender, ValueChangedEventArgs args)
+        private static void p_ValueDelegate(object sender, CustomEventArgs args)
         {
 #if BASIC // comment/uncomment first line to switch logic path
             // basic event handling

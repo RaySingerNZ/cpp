@@ -7,5 +7,5 @@ using System.Threading.Tasks;
 namespace DelegatesAndEventsDemo
 {
     // delegate for event handler - ensures that the arguments derive from EventArgs
-    public delegate void ValueChangeDelegate(object sender, ValueChangedEventArgs args);
+    public delegate void ValueChangeDelegate(object sender, CustomEventArgs args);
 }
