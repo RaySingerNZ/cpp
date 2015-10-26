@@ -10,7 +10,7 @@ namespace DelegatesAndEventsDemo
     // implements event handler to notify of changes to the object structure
     public class Person
     {
-        public event ValueChangeDelegate<ValueChangedEventArgs> ValueDelegate;
+        public event ValueChangeDelegate ValueDelegate;
 
         private string firstName;
         private string lastName;
